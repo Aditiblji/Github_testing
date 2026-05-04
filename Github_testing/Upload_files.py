@@ -20,8 +20,8 @@ driver.maximize_window()
 # Use the login function
 github_login(
     driver,
-    username="aditib.bca22@chanakyauniversity.edu.in",
-    password="Microsoft.k@.baccha1"
+    username="<github_emailID>",
+    password="<github_password>"
 )
 
 # Now you're logged in, continue with your upload etc.
