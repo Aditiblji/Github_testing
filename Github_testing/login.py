@@ -11,10 +11,10 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://github.com/login")
 
 login_id = driver.find_element(By.ID, "login_field")
-login_id.send_keys("aditib.bca22@chanakyauniversity.edu.in")
+login_id.send_keys("<github_emailID>")
 
 login_p = driver.find_element(By.ID, "password")
-login_p.send_keys("Microsoft.k@.baccha1")
+login_p.send_keys("<github_password>")
 
 btn = driver.find_element(By.NAME, "commit")
 btn.click()
